@@ -1,0 +1,26 @@
+//
+//  practicework-Prefix.pch
+//  practicework
+//
+//  Created by bleach on 16/5/14.
+//  Copyright © 2016年 duowan. All rights reserved.
+//
+
+#ifndef practicework_Prefix_pch
+#define practicework_Prefix_pch
+
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#include <OpenGLES/ES2/gl.h>
+#include <OpenGLES/ES2/glext.h>
+#include <OpenGLES/ES3/gl.h>
+#include "GLCommon.h"
+#import "PixelBufferUtils.h"
+
+#import "GlobalMacros.h"
+
+#endif
+
+#endif /* practicework_Prefix_pch */
